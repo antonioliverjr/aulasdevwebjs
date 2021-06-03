@@ -1,0 +1,63 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar{
+    background-color: lightblue;
+}
+
+.search{
+    margin-left: 15px;
+}
+
+.quem-somos{
+    background-color: lightseagreen;
+    font-size: 20px;
+    color: white;
+}
+
+.parceiros-class{
+    background-color: lightblue;
+    font-size: 20px;
+    color: black;
+}
+
+.servicos-class{
+    background-color: lightseagreen;
+    color: white;
+}
+
+.margin{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+h3{
+    margin-bottom: 30px;
+}
+
+.foto-quemsomos{
+    width: 300px;
+    height: 300px;
+}
+
+.foto-parceiros{
+    width: 300px;
+    height: 300px;
+}
+
+.bg-footer{
+    background-color: lightblue;
+    padding: 10px;
+}
+
+@media screen and (max-width: 400px){
+    .foto-parceiros{
+        width: auto;
+        height: auto;
+    }
+    .parceiros-class{
+        width: 400px;
+    }
+
+}
