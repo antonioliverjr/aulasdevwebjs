@@ -1,0 +1,101 @@
+:root{
+    --vermelho: #d6000b;
+    --preta: #0a0909;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estrutura Base */
+
+body{
+    background-color: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+header .container {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 5px;
+    height: 90px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 15px;
+    text-transform: uppercase;
+}
+
+header nav a:hover{
+    color: white;
+}
+
+/* Filme Principal */
+
+.filme-principal{
+    font-size: 20px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/netflix/img/ligadajustica-capa.jpg');
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 40px;
+    margin-top: 10px;
+    max-width: 90vh;
+}
+
+.filme-principal .container{
+    margin: 10px;
+}
+
+.filme-principal .titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.botao{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgba(97, 89, 89, 0.7);
+    border: none;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: 1s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 5px;
+}
+
+.box-filme{
+    height: 50%;
+    width: 50%;
+    display: block;
+}
+
+.carrosel-filmes{
+    margin-top: 10px;
+}
